@@ -3,7 +3,7 @@ CFLAGS = -Wall -std=c++11 -O2 -m32
 
 ################!! MODIFY HERE !!####################
 _OBJ = mips_sim.o
-_DEPS = code.hpp tokenscanner.hpp
+_DEPS = code.hpp tokenscanner.hpp mips.hpp
 #####################################################
 
 ODIR = obj
