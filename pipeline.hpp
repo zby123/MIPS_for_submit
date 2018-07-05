@@ -577,7 +577,7 @@ public:
 			ID();
 			IF();
 		}
-		printf("%d %d %.4lf\n", suc, fail, (double)1.0 * suc / (suc + fail));
+		//printf("%d %d %.4lf\n", suc, fail, (double)1.0 * suc / (suc + fail));
 	}
 
 };
